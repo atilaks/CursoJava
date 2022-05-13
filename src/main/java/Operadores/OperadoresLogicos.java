@@ -1,13 +1,13 @@
 package Operadores;
 
-/**
-  >: mayor que
-  <: menor que
-  <>: mayor o menor que
-  !=: distinto que
-  ==: igual que
-  &&: y lógico
-  ||: o lógico
+/*
+    >: mayor que
+    <: menor que
+    <>: mayor o menor que
+    !=: distinto que
+    ==: igual que
+    &&: y lógico
+    ||: o lógico
  */
 
 public class OperadoresLogicos {

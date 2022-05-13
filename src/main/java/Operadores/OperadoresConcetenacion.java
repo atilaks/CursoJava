@@ -1,6 +1,6 @@
 package Operadores;
 
-// +: une
+//  +: une
 
 public class OperadoresConcetenacion {
     public static void main(String args[]){

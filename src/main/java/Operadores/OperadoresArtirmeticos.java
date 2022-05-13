@@ -1,11 +1,11 @@
 package Operadores;
 
-/**
-  +: suma
-  -: resta
-  *: multiplicación
-  /: división
-  %: resto de la división
+/*
+    +: suma
+    -: resta
+    *: multiplicación
+    /: división
+    %: resto de la división
  */
 
 public class OperadoresArtirmeticos {

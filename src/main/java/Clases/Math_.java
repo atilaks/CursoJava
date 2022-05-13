@@ -8,18 +8,18 @@ package Clases;
     -PI: constante de clase con el numero PI
  */
 
-public class Math {
+public class Math_ {
     public static void main(String args[]){
-        double raiz = java.lang.Math.sqrt(9);
+        double raiz = Math.sqrt(9);
         System.out.println(raiz);
 
         float num1 = 8.85F;
-        int redondeo = java.lang.Math.round(num1);
+        int redondeo = Math.round(num1);
         System.out.println(redondeo);
 
         double base = 5;
         double exponente = 3;
-        int potencia = (int)java.lang.Math.pow(base, exponente);
+        int potencia = (int)Math.pow(base, exponente);
         System.out.println(potencia);
     }
 }

@@ -1,8 +1,8 @@
 package Operadores;
 
-/**
-  ++: incremento
-  --: decremento
+/*
+    ++: incremento
+    --: decremento
  */
 
 public class OperadoresIncrementoDecremento {
