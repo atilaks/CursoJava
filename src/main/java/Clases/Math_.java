@@ -5,7 +5,8 @@ package Clases;
     - pow(base, exponente): potencia de un número (se expresan en doubles)
     - sin(ángulo), cos(ángulo), tan(ángulo), atan(ángulo): seno, coseno, tangente, arco tangente
     - round(decimal): redondeo de un numero
-    -PI: constante de clase con el numero PI
+    - PI: constante de clase con el numero PI
+    - random(): devuelve un numero aleatorio entre 0 y 1 de tipo double
  */
 
 public class Math_ {
@@ -21,5 +22,7 @@ public class Math_ {
         double exponente = 3;
         int potencia = (int)Math.pow(base, exponente);
         System.out.println(potencia);
+
+        System.out.println(Math.random());
     }
 }

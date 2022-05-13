@@ -12,9 +12,9 @@ package Operadores;
 
 public class OperadoresLogicos {
     public static void main(String args[]){
-        int a = 8, b = 2, c = 0;
-
-        c = a+b;
-        System.out.println(c);
+        int a = 8, b = 2;
+        if (a < b) {
+            System.out.println(b);
+        }
     }
 }
