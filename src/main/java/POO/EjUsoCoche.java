@@ -1,6 +1,6 @@
 package POO;
 
-// Contiene el método main que gestiona todo el código de coche
+//Contiene el método main que gestiona el código de coche
 
 public class EjUsoCoche {
     public static void main(String args[]){
