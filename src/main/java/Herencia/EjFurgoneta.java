@@ -2,14 +2,16 @@ package Herencia;
 
 /*
     - Java no permite herencia múltiple (suplida por interfaces)
-    - Superclase: clase padre
-    - Subclase: clase hijo
-    - Polimorfismo: Utilizar un objeto de subclase siempre que herede de una superclase
-        + Los objetos son polimorfos, se comportan de forma distinta según el contexto
-    - Enlazado dinámico: Sabe a qué método de la clase sub o super tiene que llamar
+    - Superclase: Clase padre
+    - Subclase: Clase hijo
+    - final: Detiene la cadena de la herencia, haciendo que ninguna futura clase pueda heredar de esta
+    - Sobrecarga de métodos: Dos o más métodos con el mismo nombre en la clase sub y súper
+        + Siempre utilizará el de la clase sub al quedar sobreescrito
+        + Es posible aplicar final para evitar la sobrecarga
+
  */
 
-public class EjFurgoneta extends EjAutomovil {
+final public class EjFurgoneta extends EjAutomovil {
     private int carga;
     private int plazas;
 
@@ -33,5 +35,14 @@ public class EjFurgoneta extends EjAutomovil {
 
     public void setPlazas(int plazas) {
         this.plazas = plazas;
+    }
+
+    public String getInfo(){
+        return "El vehículo tiene: "
+                + getRuedas() + " ruedas, "
+                + getPeso() + " kilos de peso, "
+                + getColor() + " de color, "
+                + getCarga() + " kilos de carga, "
+                + getPlazas() + " plazas.";
     }
 }

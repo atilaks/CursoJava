@@ -11,7 +11,7 @@ public class EjAutomovil {
         this.color = color;
     }
 
-    public int getRuedas() {
+    public final int getRuedas() {
         return ruedas;
     }
 
@@ -19,7 +19,7 @@ public class EjAutomovil {
         this.ruedas = ruedas;
     }
 
-    public int getPeso() {
+    public final int getPeso() {
         return peso;
     }
 
@@ -27,11 +27,18 @@ public class EjAutomovil {
         this.peso = peso;
     }
 
-    public String getColor() {
+    public final String getColor() {
         return color;
     }
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public String getInfo(){
+        return "El vehículo tiene: "
+                + getRuedas() + " ruedas, "
+                + getPeso() + " kilos de peso, "
+                + getColor() + " de color.";
     }
 }
