@@ -9,7 +9,7 @@ import Interfaces.SubClase;
 
 import java.util.Arrays;
 
-public class Arrays_ {
+public class Array_ {
     public static void main(String args[]) {
         SubClase[] Trabajadores = new SubClase[3];
         Trabajadores[0] = new SubClase("RRHH", 1500, "Base");

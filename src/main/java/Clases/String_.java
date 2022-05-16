@@ -11,7 +11,7 @@ package Clases;
         + equalsIgnoreCase(cadena): igual que equals sin tener en cuenta mayúsculas y minúsculas
  */
 
-public class Strings {
+public class String_ {
     public static void main(String args[]){
         String nombre1 = "Jaime", nombre2 = "jaime";
         System.out.println(nombre1);
