@@ -3,7 +3,8 @@ package Clases;
 /*
     - Sirve para acceder a partes del sistema
     - Métodos:
-        + beep: sonido de alerta del sistema
+        + beep: Sonido de alerta del sistema
+        + getScreenSize: Devuelve las dimensiones de la pantalla
  */
 
 import java.awt.Toolkit;
