@@ -17,7 +17,7 @@ import java.awt.geom.Ellipse2D;
 import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 
-public class DibujoEnPanel {
+public class DibujoEnLamina {
     public static void main(String args[]){
         MarcoConDibujosGraphics mi_marco_graphics = new MarcoConDibujosGraphics();
         mi_marco_graphics.setVisible(true);
