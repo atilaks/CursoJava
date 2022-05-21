@@ -1,4 +1,4 @@
-package Eventos;
+package Eventos.Ventana;
 
 /*
     - WindowListener: Para construir la acción de pantalla es necesario implementar los siete métodos
@@ -15,26 +15,26 @@ import javax.swing.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
-public class EventosVentana {
+public class EventosVentanaWindowsListener {
     public static void main(String args[]){
-        MarcoVentana mi_marco1 = new MarcoVentana();
+        MarcoVentanaWindowsListener mi_marco1 = new MarcoVentanaWindowsListener();
         mi_marco1.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-        MarcoVentana mi_marco2 = new MarcoVentana();
+        MarcoVentanaWindowsListener mi_marco2 = new MarcoVentanaWindowsListener();
         mi_marco2.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 }
 
-class MarcoVentana extends JFrame {
-    public MarcoVentana(){
+class MarcoVentanaWindowsListener extends JFrame {
+    public MarcoVentanaWindowsListener(){
         setBounds(300, 300, 500, 350);
         setVisible(true);
-        VentanaOyente oyente = new VentanaOyente();
+        VentanaOyenteWindowsListener oyente = new VentanaOyenteWindowsListener();
         addWindowListener(oyente);
     }
 }
 
-class VentanaOyente implements WindowListener {
+class VentanaOyenteWindowsListener implements WindowListener {
     public void windowActivated(WindowEvent e) {
         System.out.println("Ventana activada");
     }

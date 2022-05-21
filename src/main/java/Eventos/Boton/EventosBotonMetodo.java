@@ -1,4 +1,4 @@
-package Eventos;
+package Eventos.Boton;
 
 import javax.swing.*;
 import java.awt.*;
