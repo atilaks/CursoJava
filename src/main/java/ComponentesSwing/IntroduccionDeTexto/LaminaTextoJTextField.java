@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class LaminaTextoJTextField extends JPanel {
-    private JTextField campo1;
+    JTextField campo1;
 
     public LaminaTextoJTextField() {
         campo1 = new JTextField(20);
